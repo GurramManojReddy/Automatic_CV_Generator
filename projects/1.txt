@@ -1,0 +1,8 @@
+\resumeSubheading
+      {Meal Nutrition Analysis \textnormal{\small\textbar{} PyTorch, Pandas, NumPy, OpenCV, CNN, Multimodal}}{Sep. 2024 -- Dec. 2024}
+      {Machine Learning Course Project}{}
+      \resumeItemListStart
+    \resumeItem{Preprocessed multimodal meal photos and sensor readings using \textbf{OpenCV}, \textbf{Pandas}, and \textbf{NumPy} to standardize inputs.}
+    \resumeItem{Built a \textbf{PyTorch} DataLoader and designed \textbf{multimodal} model to extract joint embeddings for calorie prediction.}
+    \resumeItem{Trained the network with \textbf{RMSRE} loss, performed hyperparameter tuning, and outperformed the \textbf{Kaggle} benchmark.}
+  \resumeItemListEnd

@@ -1,0 +1,8 @@
+ \resumeSubheading
+      {Local Search Engine \textnormal{\small\textbar{} Python, Streamlit, FAISS, BM25, LLMs}}{Dec. 2024 -- Feb. 2025}
+      {Personal Project}{}
+      \resumeItemListStart
+        \resumeItem{Built a \textbf{hybrid search engine} using dense embeddings \textbf{FAISS} and sparse \textbf{BM25} retrieval for enhanced accuracy.}
+        \resumeItem{Implemented \textbf{LLM-driven Chain-of-Thought reasoning} to iteratively refine queries and improve relevance.}
+        \resumeItem{Developed an \textbf{async pipeline} for PDF/text processing and applied \textbf{rank fusion} with \textbf{temporal scoring}.}
+      \resumeItemListEnd

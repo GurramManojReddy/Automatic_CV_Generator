@@ -1,0 +1,9 @@
+      
+    \resumeSubheading
+      {RL-Based Dynamic Thermal Management \textnormal{\small\textbar{} Python, Arduino, Linux, PPO}}{Jan. 2023 -- Apr. 2023}
+      {Bachelors Research Project}{}
+      \resumeItemListStart
+        \resumeItem{Developed an \textbf{RL-based Intelligent Scheduler} to optimize CPU frequencies and improve thermal management.}
+        \resumeItem{Implemented \textbf{Proximal Policy Optimization}, achieving a 6°C reduction in Arduino chip temperature.}
+        \resumeItem{Ensured \textbf{Quality of Service} by maintaining deadlines while reducing thermal output in embedded platforms.}
+      \resumeItemListEnd

@@ -1,0 +1,199 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumeCertificationHeading}[1]{
+  \vspace{-2pt}\item
+    \textbf{#1}\vspace{-7pt}
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Manoj Reddy Gurram} \\ \vspace{1pt}
+    \small \underline{945-276-9919} $|$ \underline{gurrammanojreddy850@gmail.com} $|$ 
+    \href{https://www.linkedin.com/in/gurrammanojreddy/}{\underline{linkedin.com/in/gurrammanojreddy}} $|$
+    \href{https://github.com/GurramManojReddy}{\underline{github.com/GurramManojReddy}}
+\end{center}
+
+
+%-----------Experience-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Researcher}{Aug. 2023 -- Present}
+      {Texas A\&M University}{College Station, TX}
+      \resumeItemListStart
+        \resumeItem{Developed a \textbf{Python} tool using \textbf{REST API} in backend to automate code generation from GitHub Copilot}
+        \resumeItem{Implemented \textbf{GAN-based obfuscation} to create millions of malware samples, bypassing 50\% of known security defenses.}
+        \resumeItem{Submitted a research paper detailing malware generation, enabling us to uncover vulnerabilities in antivirus tools.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Summer Intern}{Jun. 2022 -- Aug. 2022}
+      {Fiserv}{Pune, MH}
+      \resumeItemListStart
+        \resumeItem{Developed cloud-based \textbf{Java} microservices for financial transactions using \textbf{Vert.x} and \textbf{Spring Boot} libraries.}
+        \resumeItem{Deployed microservices with \textbf{In-Memory Data Grid (IMDG)} in Hazelcast, enhancing scalability and performance.}
+        \resumeItem{Optimized event-driven communication between microservices using \textbf{Vert.x event-bus}, enhancing system responsiveness.}
+        \resumeItem{Collaborated with testing and development teams to optimize code, achieving near-native server speeds of 140 TPS}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------Projects-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+  \resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Texas A\&M University, College Station, TX}{Aug. 2023 -- Apr. 2025}
+      {Master of Science in Computer Science}{GPA: 3.90/4.00}
+    \resumeSubheading
+      {Indian Institute of Technology, Kharagpur, India}{Aug. 2019 -- Apr. 2023}
+      {Bachelor of Technology in Electrical Engineering}{GPA: 3.41/4.00}
+  \resumeSubHeadingListEnd
+\vspace{-5pt}
+
+%-----------Skills-----------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeItemListStart
+         \resumeItem{\textbf{Languages \& Tools:} C, C++, Java, Python, Ruby, R, SQL, Dart, JavaScript, HTML, CSS, Bash, Git.}
+          \resumeItem{\textbf{Frameworks \& Libraries:} Spring Boot, Angular, React, Express.js, Rails, TensorFlow, PyTorch, scikit-learn.}
+          \resumeItem{\textbf{Databases \& Data:} MySQL, PostgreSQL, MongoDB, Kafka, Redis, Pandas, NumPy, Matplotlib, BM25, NLTK}
+          \resumeItem{\textbf{DevOps, Cloud \& Testing:} Docker, Kubernetes, AWS (EC2, S3), Jenkins, Selenium, Terraform, JUnit, Mockito.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+% %-----------Certifications-----------
+% \section{Certifications}
+%   \resumeSubHeadingListStart
+
+%     \resumeCertificationHeading{The Complete 2024 Web Development Bootcamp}
+%       \resumeItemListStart
+%         \resumeItem{Covered Full-Stack Web Development: HTML, CSS, JavaScript, Node, React, PostgreSQL, Web3, and DApps.}
+%       \resumeItemListEnd
+
+%     \resumeCertificationHeading{The Complete Machine Learning Course with Python}
+%       \resumeItemListStart
+%         \resumeItem{Built 12 Machine Learning projects using Python, SVM, Regression, and Unsupervised Machine Learning techniques.}
+%       \resumeItemListEnd
+
+%   \resumeSubHeadingListEnd
+
+%-----------Awards and Achievements-----------
+\section{Awards and Achievements}
+  \resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{Awarded the Merit-cum-Means and the Texas A\&M CS Department Scholarship for outstanding academic performance.}
+        \resumeItem{Served as \textbf{Director of IT} for 1 year at the Indian Graduate Student Association at Texas A\&M University.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}

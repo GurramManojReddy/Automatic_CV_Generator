@@ -1,0 +1,8 @@
+\resumeSubheading
+      {Leadership Effectiveness Inventory \textnormal{\small\textbar{} Ruby, Rails, Agile, Git, JavaScript, Postgres, SQL}}{Aug. 2024 -- Dec. 2024}
+      {Software Engineering Course Legacy Project}{}
+      \resumeItemListStart
+        \resumeItem{Built backend services with \textbf{Ruby on Rails} and \textbf{Git}, integrating \textbf{OAuth2} authentication via Auth0 for secure access.}
+        \resumeItem{Effectively employed \textbf{Agile} methodology across four sprints to iteratively implement and refine user-requested features.}
+        \resumeItem{Used \textbf{Postgres SQL} to efficiently fetch and aggregate survey data, powering dynamic dashboards for leadership feedback.}
+      \resumeItemListEnd

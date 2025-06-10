@@ -1,0 +1,1 @@
+python3 /Users/manoj/Desktop/Stunts/cv_maker.py

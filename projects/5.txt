@@ -1,0 +1,8 @@
+\resumeSubheading
+      {Portfolio Management \textnormal{\small\textbar{} R, Python, NLP, IBrokers, Transformers, BERT}}{Jan. 2024 -- Apr. 2024}
+      {Computer Trading Strategies Course Project}{}
+      \resumeItemListStart
+        \resumeItem{Designed trading strategy with statistical models using \textbf{R} and \textbf{sentiment analysis}, achieving \textbf{76\%} backtesting accuracy.}
+        \resumeItem{Scraped insider news data and integrated \textbf{RSI} plus sentiment features into linear model, resulting in a \textbf{0.9 Sharpe Ratio}.}
+        \resumeItem{Surpassed benchmark algorithms by leveraging sentiment analysis and technical indicators for stock market predictions.}
+      \resumeItemListEnd

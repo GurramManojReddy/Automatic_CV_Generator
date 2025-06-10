@@ -1,0 +1,8 @@
+\resumeSubheading
+      {Task Tracker Web Suite \textnormal{\small\textbar{} Angular, Java, Spring Boot, REST API, Bootstrap}}{Nov. 2023 -- Dec. 2023}
+      {Personal Full-Stack Project}{}
+      \resumeItemListStart
+        \resumeItem{Developed a task tracker with \textbf{Angular} frontend and Java \textbf{Spring Boot} backend, supporting CRUD operations.}
+        \resumeItem{Implemented \textbf{JWT-based auth} and form validation using Angular reactive forms and route guards.}
+        \resumeItem{Built REST endpoints in Java to handle task logic, using Spring \textbf{MVC}, JPA, and H2 in-memory database for quick testing.}
+      \resumeItemListEnd

@@ -1,0 +1,8 @@
+\resumeSubheading
+      {Operating Systems Kernel From Scratch \textnormal{\small\textbar{} C, C\texttt{++}, Assembly, Shell}}{Jan. 2024 -- Apr. 2024}
+      {Operating Systems Course Project}{}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented an OS in \textbf{VirtualBox}, emulated using \textbf{bochs}, with \textbf{x86 architecture} support.}
+        \resumeItem{Developed a \textbf{2-level paging system} and exception 14 page fault handler to manage memory and address translation.}
+        \resumeItem{Built thread functionalities with \textbf{Round Robin (RR)} scheduling, including I/O device \textbf{drivers} for sequential access.}
+      \resumeItemListEnd

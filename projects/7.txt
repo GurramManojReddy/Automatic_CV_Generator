@@ -1,0 +1,8 @@
+    \resumeSubheading
+      {BMI Calculator \textnormal{\small\textbar{} Flutter, Dart, Material Design}}{Apr. 2023 -- May 2023}
+      {Personal Flutter Project}{}
+      \resumeItemListStart
+        \resumeItem{Built a mobile BMI calculator using \textbf{Flutter}, with interactive sliders, real-time BMI computation, and animated output.}
+        \resumeItem{Created a responsive UI using \textbf{stateful widgets}, layout composition, and custom Material theming.}
+        \resumeItem{Tested and deployed the app to both \textbf{iOS (via Xcode)} and \textbf{Android} devices using Flutter’s cross-platform capabilities.}
+      \resumeItemListEnd

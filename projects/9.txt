@@ -1,0 +1,8 @@
+    \resumeSubheading
+      {Secure Blog Platform \textnormal{\small\textbar{} React, Node.js, Express, MongoDB, REST, JWT}}{Nov. 2022 -- Dec. 2022}
+      {Personal Full-Stack Project}{}
+      \resumeItemListStart
+        \resumeItem{Developed a secure blogging platform with a \textbf{React} frontend and \textbf{Node.js} REST API, supporting dynamic content.}
+        \resumeItem{Implemented \textbf{JWT-based auth} with protected routes for secure user registration, login, and access control.}
+        \resumeItem{Designed and integrated \textbf{MongoDB} to manage blog data efficiently with schema modeling and indexed queries.}
+      \resumeItemListEnd
